@@ -83,86 +83,34 @@ export default function Hero() {
         >
           <div className="absolute -inset-7 rounded-[2rem] bg-gradient-to-br from-blue-500/20 via-cyan-400/10 to-transparent blur-3xl" />
 
-          <div className="relative overflow-hidden rounded-[30px] border border-slate-700/80 bg-slate-900/85 shadow-[0_24px_80px_rgba(15,23,42,0.8)] backdrop-blur-sm">
-            <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-blue-500/20 to-transparent" />
+          <div className="relative overflow-hidden rounded-[30px] border border-slate-700/80 bg-slate-900/85 shadow-[0_24px_80px_rgba(15,23,42,0.8)]">
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/25 to-transparent" />
 
-            <div className="relative flex items-center justify-between border-b border-slate-700/80 bg-slate-950/70 px-4 py-3">
-              <div className="flex items-center gap-2">
-                <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
-                <span className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
-                <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
-              </div>
-              <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-slate-400">
-                <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-                live
-              </div>
-            </div>
+            <img
+              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80"
+              alt="Hacker coding on a computer"
+              className="relative h-[420px] w-full object-cover"
+            />
 
-            <div className="relative p-5">
-              <div className="rounded-2xl border border-slate-700/80 bg-slate-950/75 p-4">
-                <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.22em] text-slate-400">
-                  <span>dashboard</span>
-                  <span className="font-semibold text-cyan-300">karl.dev</span>
+            <div className="absolute inset-x-0 bottom-0 p-5">
+              <div className="rounded-2xl border border-slate-700/70 bg-slate-950/70 p-3 backdrop-blur-sm">
+                <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.22em] text-slate-300">
+                  <span>cyber</span>
+                  <span className="text-emerald-400">live</span>
                 </div>
 
-                <div className="mt-5 rounded-xl border border-slate-700/70 bg-slate-900/80 p-3">
-                  <div className="flex items-center justify-between text-[10px] text-slate-400">
-                    <span>project: portfolio</span>
-                    <span className="text-emerald-400">online</span>
-                  </div>
-
-                  <div className="mt-4 space-y-3">
-                    <div className="flex gap-2">
-                      <span className="h-2.5 w-2.5 rounded-full bg-blue-400" />
-                      <span className="h-2.5 w-28 rounded-full bg-slate-700" />
-                    </div>
-                    <div className="h-2.5 w-20 rounded-full bg-slate-700" />
-
-                    <div className="grid grid-cols-3 gap-2 pt-1">
-                      <div className="rounded-xl bg-blue-500/15 p-2">
-                        <div className="h-8 rounded-lg bg-gradient-to-br from-blue-500/70 to-cyan-400/50" />
-                      </div>
-                      <div className="rounded-xl bg-emerald-500/15 p-2">
-                        <div className="h-8 rounded-lg bg-gradient-to-br from-emerald-500/70 to-teal-400/50" />
-                      </div>
-                      <div className="rounded-xl bg-violet-500/15 p-2">
-                        <div className="h-8 rounded-lg bg-gradient-to-br from-violet-500/70 to-indigo-400/50" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-5 grid grid-cols-2 gap-3">
-                  <div className="rounded-xl border border-slate-700/80 bg-slate-900/80 p-3">
-                    <div className="text-[10px] uppercase tracking-[0.2em] text-slate-500">
-                      stack
-                    </div>
-                    <div className="mt-3 flex flex-wrap gap-2 text-[10px] font-semibold text-slate-200">
-                      <span className="rounded-full bg-blue-500/15 px-2 py-1">React</span>
-                      <span className="rounded-full bg-slate-700 px-2 py-1">Vite</span>
+                <div className="mt-3 flex items-center justify-between gap-3">
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.2em] text-slate-400">stack</div>
+                    <div className="mt-2 flex flex-wrap gap-2 text-[10px] font-semibold text-slate-100">
+                      <span className="rounded-full bg-blue-500/20 px-2 py-1">React</span>
+                      <span className="rounded-full bg-slate-700 px-2 py-1">Node</span>
                     </div>
                   </div>
 
-                  <div className="rounded-xl border border-slate-700/80 bg-slate-900/80 p-3">
-                    <div className="text-[10px] uppercase tracking-[0.2em] text-slate-500">
-                      service
-                    </div>
-                    <div className="mt-3 text-sm font-medium text-slate-100">Full stack</div>
+                  <div className="rounded-full border border-cyan-400/40 bg-cyan-500/10 px-2 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-cyan-200">
+                    dev
                   </div>
-                </div>
-              </div>
-
-              <div className="mt-4 flex items-center justify-between rounded-2xl border border-blue-500/25 bg-blue-500/10 px-3 py-2.5">
-                <div>
-                  <div className="text-[10px] uppercase tracking-[0.24em] text-blue-200/80">
-                    code
-                  </div>
-                  <div className="mt-1 text-sm font-semibold text-blue-50">
-                    HTML / CSS / JS
-                  </div>
-                </div>
-                <div className="rounded-full border border-blue-300/30 bg-blue-400/15 px-2 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-blue-200">
-                  build
                 </div>
               </div>
             </div>

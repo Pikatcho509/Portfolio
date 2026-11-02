@@ -22,8 +22,26 @@ const categories = [
     skills: ["Flutter", "Android", "Google Play", "PWA", "Offline-first"],
   },
   {
-    title: "Sekirite",
-    skills: ["Ethical hacking", "Sekirite web", "OWASP", "Linux", "Rezo"],
+    title: "Cyber Security",
+    skills: [
+      "Ethical hacking",
+      "Sekirite web",
+      "OWASP",
+      "Linux",
+      "Rezo",
+      "Pentest",
+      "SOC basics",
+    ],
+  },
+  {
+    title: "AI & automation",
+    skills: [
+      "Intelligence artificielle",
+      "Prompt engineering",
+      "Automatizasyon",
+      "AI tools",
+      "Workflow optimization",
+    ],
   },
   {
     title: "Deplwaman",
